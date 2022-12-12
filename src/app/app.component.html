@@ -1,0 +1,16 @@
+<label>{{name}}</label><br><br>
+
+
+
+<button class="btn-align" (click)="onPortOpen()">Open</button>
+<button class="btn-align" (click)="onPortClose()">Close</button>
+
+<br><br>
+
+<span class="result-msg">{{strMessage}}</span>
+
+<br *ngIf="strResult"><br *ngIf="strResult">
+
+<span class="result-msg" *ngIf="strResult">{{strResult}}</span>
+
+
